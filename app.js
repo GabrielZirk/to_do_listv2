@@ -137,5 +137,5 @@ app.get("/about", function (req, res) {
 });
 
 app.listen(process.env.port || 3000, function () {
-  console.log("Server started on port 3000");
+  console.log("Server has started successfully.");
 });
